@@ -13,5 +13,16 @@ namespace WebTimeStampManagement
         {
 
         }
+
+        protected void btn_login_Click(object sender, EventArgs e)
+        {
+            if (txt_username.Text != string.Empty)
+            {
+                Session.Timeout = 20;
+                Session["login"] = txt_password.Text.ToString();
+                Response.Redirect("WelcomPage.aspx");
+            }
+           
+        }
     }
 }

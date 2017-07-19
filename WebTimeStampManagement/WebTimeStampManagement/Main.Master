@@ -6,7 +6,8 @@
 <head runat="server">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, maximum-scale=1">
-    <title>Unique</title>
+    <title>
+        Thailand | Toshiba Leading Innovation     </title>
     <link rel="icon" href="favicon.png" type="image/png">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css"> 
@@ -20,7 +21,7 @@
 <header id="header_wrapper">
   <div class="container">
     <div class="header_box">
-      <div class="logo"><a href="#"><img src="img/logo.png" alt="logo"></a></div>
+      <div class="logo"><a href="#"><img src="img/site-logo.png" alt="logo"></a></div>
 	  <nav class="navbar navbar-inverse" role="navigation">
       <div class="navbar-header">
         <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
@@ -53,7 +54,7 @@
 <footer class="footer_wrapper" id="contact">
   
   <div class="container">
-    <div class="footer_bottom"><span>Copyright © 2017,    TATC. </span> </div>
+    <div class="footer_bottom"><span>Copyright © 2017,  TOSHIBA - ASIA PACIFIC  </span> </div>
   </div>
 </footer>
 

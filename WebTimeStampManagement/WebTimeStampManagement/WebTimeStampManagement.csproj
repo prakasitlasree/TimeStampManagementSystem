@@ -99,6 +99,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Main.Master" />
+    <Content Include="WelcomPage.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -126,12 +127,20 @@
       <DependentUpon>Main.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WelcomPage.aspx.cs">
+      <DependentUpon>WelcomPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WelcomPage.aspx.designer.cs">
+      <DependentUpon>WelcomPage.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="css\" />
     <Folder Include="fonts\" />
     <Folder Include="img\" />
     <Folder Include="js\" />
+    <Folder Include="UserControl\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
