@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, maximum-scale=1">
     <title>
         Thailand | Toshiba Leading Innovation     </title>
-    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="icon" href="img/favicon.ico" type="image/png">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css"> 
     <link href="css/font-awesome.css" rel="stylesheet" type="text/css"> 
@@ -29,12 +29,10 @@
 	    <div id="main-nav" class="collapse navbar-collapse navStyle">
 			<ul class="nav navbar-nav" id="mainNav">
 			  <li class="active"><a href="#hero_section" class="scroll-link">Home</a></li>
-			  <li><a href="#aboutUs" class="scroll-link">About Us</a></li>
-			  <li><a href="#service" class="scroll-link">Services</a></li>
-			  <li><a href="#Portfolio" class="scroll-link">Portfolio</a></li>
-			  <li><a href="#clients" class="scroll-link">Clients</a></li>
-			  <li><a href="#team" class="scroll-link">Team</a></li>
-			  <li><a href="#contact" class="scroll-link">Contact</a></li>
+			  <li><a href="#aboutUs" class="scroll-link">My TimeSheet</a></li>
+			  <li><a href="#service" class="scroll-link">Daily TimeSheet</a></li>
+			  <li><a href="#Portfolio" class="scroll-link">Monthly TimeSheet</a></li>
+			   
 			</ul>
       </div>
 	 </nav>

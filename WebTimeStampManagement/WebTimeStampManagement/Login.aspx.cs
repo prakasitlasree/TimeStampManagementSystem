@@ -19,7 +19,7 @@ namespace WebTimeStampManagement
             if (txt_username.Text != string.Empty)
             {
                 Session.Timeout = 20;
-                Session["login"] = txt_password.Text.ToString();
+                Session["login"] = txt_username.Text.ToString();
                 Response.Redirect("WelcomPage.aspx");
             }
            

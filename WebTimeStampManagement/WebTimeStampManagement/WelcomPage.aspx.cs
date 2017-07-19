@@ -11,7 +11,10 @@ namespace WebTimeStampManagement
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["login"] != null)
+            {
+                lb_user.Text = Session["login"].ToString();
+            }
         }
     }
 }

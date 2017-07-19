@@ -7,7 +7,7 @@
             <div class="container"> 
                 <div class="inner_section">
                     <div class="row">
-                         
+                         <h3> Hello : <asp:Label ID="lb_user" runat="server" Text="Label"></asp:Label></h3>
                     </div>
                 </div>
             </div>
