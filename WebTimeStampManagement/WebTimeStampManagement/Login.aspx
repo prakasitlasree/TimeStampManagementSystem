@@ -16,12 +16,12 @@
                             <div class="top_left_cont zoomIn wow animated">
                                 <h2>Timestamp   <strong>Mangement</strong> System</h2>
                                 <asp:Panel ID="pn_login" runat="server" Height="100%" HorizontalAlign="Center" Width="30%">
-                                    <p>UerName : 
-                                    <asp:TextBox ID="txt_username" runat="server"></asp:TextBox></p>
+                                    UerName : 
+                                    <asp:TextBox ID="txt_username" runat="server"></asp:TextBox> 
                                     
                                      
-                                    <p>Password :
-                                    <asp:TextBox ID="txt_password" runat="server"></asp:TextBox> </p>
+                                     Password :
+                                    <asp:TextBox ID="txt_password" runat="server"></asp:TextBox>  
                                      
                                     <asp:Button ID="btn_login" class="btn_login" runat="server" Text="Login" OnClick="btn_login_Click" />
                                     
